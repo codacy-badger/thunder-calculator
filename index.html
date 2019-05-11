@@ -1,0 +1,34 @@
+---
+layout: page
+title: Home
+---
+
+<main class="section">
+  <div class="container">
+    <article class="message is-info">
+      <div class="message-body">
+        Start counting seconds if you see the light, and stop counting if you hear the thunder. Fill in the counted seconds in the form below, and click 'Submit'.
+      </div>
+    </article>
+    <form class="field has-addons" name="calc" onsubmit="calculate()">
+      <div class="control">
+        <input class="input" type="number" name="sec" placeholder="... seconds" size="3">
+      </div>
+      <div class="control">
+        <a class="button is-primary">
+          Calculate
+        </a>
+      </div>
+    </form>
+  </div>
+</main>
+
+<script type="text/javascript">
+  function calculate() {
+    var x = document.forms["calc"]["sec"].value;
+    var y = x / 3
+    var z = y * 0.62137
+    alert('The thunder is ' + y + ' kilometers away. That is ' + z + ' yards.')
+    return false;
+  }
+</script>
