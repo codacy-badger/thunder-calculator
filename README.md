@@ -1,1 +1,1 @@
-# thunder-calculator
+# thunder-calculator [![Build Status](https://travis-ci.com/Roman1001/thunder-calculator.svg?branch=master)](https://travis-ci.com/Roman1001/thunder-calculator) ![Version 1.0](https://img.shields.io/badge/Version-1.0-orange.svg) 
